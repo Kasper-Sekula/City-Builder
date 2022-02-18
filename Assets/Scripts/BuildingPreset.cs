@@ -11,4 +11,9 @@ public class BuildingPreset : ScriptableObject
     [SerializeField] int population;
     [SerializeField] int jobs;
     [SerializeField] int food;
+
+    public GameObject GetPrefab()
+    {
+        return prefab;
+    }
 }

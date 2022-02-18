@@ -7,7 +7,7 @@ public class Selector : MonoBehaviour
 {
     private Camera cam;
 
-    [SerializeField] static Selector instance;
+    public static Selector instance;
 
     void Awake()
     {
