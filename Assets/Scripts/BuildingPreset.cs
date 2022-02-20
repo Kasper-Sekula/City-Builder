@@ -5,15 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Building Preset", menuName = "New Building Preset")]
 public class BuildingPreset : ScriptableObject
 {
-    [SerializeField] int cost;
-    [SerializeField] int costPerTurn;
-    [SerializeField] GameObject prefab;
-    [SerializeField] int population;
-    [SerializeField] int jobs;
-    [SerializeField] int food;
+    [SerializeField] public int cost;
+    [SerializeField] public int costPerTurn;
+    [SerializeField] public GameObject prefab;
+    [SerializeField] public int population;
+    [SerializeField] public int jobs;
+    [SerializeField] public int food;
 
-    public GameObject GetPrefab()
-    {
-        return prefab;
-    }
 }

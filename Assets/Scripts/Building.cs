@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    [SerializeField] BuildingPreset preset;
+    public BuildingPreset preset;
+
 }
